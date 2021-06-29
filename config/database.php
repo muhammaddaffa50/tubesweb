@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
+$herokudb = parse_url(getenv("DATABASE_URL","postgres://vdjmntgwktdcch:b1ddcb7cf61039b6dcc9dd4dc265e1650cf881c57614d24419e057a117642032@ec2-34-206-8-52.compute-1.amazonaws.com:5432/d7o1p8nt5tfmlr"));
 
 return [
 
@@ -15,7 +16,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,17 +66,13 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => $herokudb['DB_HOST'],
+            'database' => substr($herokudb['path'],1),
+            'username' => env('DB_USERNAME'),
+            'password' => env('DB_PASSWORD'),
             'charset' => 'utf8',
             'prefix' => '',
-            'prefix_indexes' => true,
             'schema' => 'public',
-            'sslmode' => 'prefer',
         ],
 
         'sqlsrv' => [
