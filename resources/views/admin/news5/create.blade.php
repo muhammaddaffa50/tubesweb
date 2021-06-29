@@ -37,7 +37,7 @@
                         <div class="col-20">
                             <div class="form-group">
                                 <label for="title">Title</label>
-                                <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" placeholder="News5 Title">
+                                <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" placeholder="Title">
                                 <small class="text-danger">@error('title') {{$message}} @enderror</small>
                             </div>
                         </div>
