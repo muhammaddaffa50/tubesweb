@@ -129,7 +129,7 @@
                         <div class="progress">
                             <span class="skill">Gunung lawu <i class="val">50%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                         <div class="progress">
                             <span class="skill">Gunung liman <i class="val">45%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                         <div class="progress">
                             <span class="skill">Gunung argapura <i class="val">30%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
