@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Berita | @yield('title')</title>
+    <title>goenoeng | @yield('title')</title>
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
@@ -56,28 +56,17 @@
             <!-- Brand Logo -->
             <a href="/" class="brand-link">
                 <img src="{{ asset('img/logo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">Berita</span>
+                <span class="brand-text font-weight-light">goenoeng</span>
             </a>
             <!-- Sidebar -->
             <div class="sidebar">
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="{{ asset('img/uploads/daffa.jpg') }}" class="img-circle elevation-2" alt="User Image">
+                        <img src="{{ asset('img/adminreal.jpg') }}" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">Admin</a>
-                    </div>
-                </div>
-                <!-- SidebarSearch Form -->
-                <div class="form-inline">
-                    <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-                        <div class="input-group-append">
-                            <button class="btn btn-sidebar">
-                                <i class="fas fa-search fa-fw"></i>
-                            </button>
-                        </div>
                     </div>
                 </div>
                 <!-- Sidebar Menu -->
@@ -105,7 +94,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News
+                                    argapura
                                 </p>
                             </a>
                         </li>
@@ -113,7 +102,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news1" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News1
+                                    buthak
                                 </p>
                             </a>
                         </li>
@@ -121,7 +110,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news2" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News2
+                                    arjuno
                                 </p>
                             </a>
                         </li>
@@ -129,7 +118,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news3" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News3
+                                    pundak
                                 </p>
                             </a>
                         </li>
@@ -137,7 +126,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news4" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News4
+                                    sumeru
                                 </p>
                             </a>
                         </li>
@@ -145,7 +134,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news5" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News5
+                                    bromo
                                 </p>
                             </a>
                         </li>
@@ -153,7 +142,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news6" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News6
+                                    kawi
                                 </p>
                             </a>
                         </li>
@@ -161,7 +150,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news7" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News7
+                                    liman
                                 </p>
                             </a>
                         </li>
@@ -169,7 +158,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news8" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    News8
+                                    lawu
                                 </p>
                             </a>
                         </li>
@@ -184,13 +173,7 @@ with font-awesome or any other icon font library -->
             @yield('content')
         </div>
         <!-- /.content-wrapper -->
-        <footer class="main-footer">
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-            All rights reserved.
-            <div class="float-right d-none d-sm-inline-block">
-                <b>Version</b> 3.1.0
-            </div>
-        </footer>
+
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">
             <!-- Control sidebar content goes here -->

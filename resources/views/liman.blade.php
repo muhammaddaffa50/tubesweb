@@ -83,7 +83,6 @@
                 <li><strong>Category : </strong>{{ $newss->category }}</li>
                 <li><strong>Client : </strong>{{ $newss->client }}</li>
                 <li><strong>tanggal : </strong>{{ $newss->created_at }}</li>
-                <li><strong>Project URL : </strong>: <a href="#">www.example.com</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
@@ -124,11 +123,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://uts1-132.herokuapp.com">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://uts1-132.herokuapp.com">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a
-                  href="https://uts1-132.herokuapp.com/portfolio.html">Portfolio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://uts1-132.herokuapp.com">Team</a></li>
+                  href="/">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Team</a></li>
             </ul>
           </div>
         </div>

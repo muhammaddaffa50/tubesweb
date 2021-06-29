@@ -28,7 +28,6 @@
                     <li><a class="nav-link scrollto " href=#portfolio>Portfolio</a>
                     </li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="/news">Admin</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -128,7 +127,7 @@
                         </div>
 
                         <div class="progress">
-                            <span class="skill">Gunung Pundak <i class="val">90%</i></span>
+                            <span class="skill">Gunung lawu <i class="val">50%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -136,7 +135,7 @@
                         </div>
 
                         <div class="progress">
-                            <span class="skill">Gunung Pundak <i class="val">90%</i></span>
+                            <span class="skill">Gunung liman <i class="val">45%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -145,7 +144,7 @@
 
 
                         <div class="progress">
-                            <span class="skill">Gunung Pundak <i class="val">90%</i></span>
+                            <span class="skill">Gunung argapura <i class="val">30%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -370,7 +369,6 @@
                         <img src="./index_files/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>gunung liman</h4>
-                            <p>Card</p>
                             <a href="./index_files/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="gunung liman"><i class="bx bx-plus"></i></a>
                             <a href="/liman1" class="details-link" title="More Details"><i
@@ -382,7 +380,6 @@
                         <img src="./index_files/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>gunung pundak</h4>
-                            <p>Card</p>
                             <a href="./index_files/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="gunung pundak"><i class="bx bx-plus"></i></a>
                             <a href="/pundak1" class="details-link" title="More Details"><i
@@ -507,11 +504,11 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="/">About us</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a
-                                    href="https://uts1-132.herokuapp.com/portfolio.html">Portfolio</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
+                                    href="/">Portfolio</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="/">Team</a></li>
                         </ul>
                     </div>
                 </div>

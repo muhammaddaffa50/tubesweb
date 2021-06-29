@@ -83,8 +83,4 @@ class Daffa132Controller extends Controller
         return view('lawu', compact("news8"));
     }
 
-    public function profile()
-    {
-        return view('profil');
-    }
 }
