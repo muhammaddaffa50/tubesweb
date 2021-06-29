@@ -66,10 +66,10 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => $herokudb['DB_HOST'],
+            'host' => $herokudb['host'],
             'database' => substr($herokudb['path'],1),
-            'username' => env('DB_USERNAME'),
-            'password' => env('DB_PASSWORD'),
+            'username' => env('username'),
+            'password' => env('password'),
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
