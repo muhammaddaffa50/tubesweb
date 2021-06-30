@@ -39,7 +39,6 @@
               <th>Title</th>
               <th>About</th>
               <th>Category</th>
-              <th>Client</th>
               <th>Picture</th>
               <th>Content</th>
               <th>Published</th>
@@ -55,7 +54,6 @@
               <td>{{ $newss->title }}</td>
               <td>{{ $newss->about }}</td>
               <td>{{ $newss->category }}</td>
-              <td>{{ $newss->client }}</td>
               <td>
                 <a href="{{ asset('img/uploads/') }}/{{ $newss->picture }}">Lihat Gambar</a>
               </td>
@@ -93,7 +91,6 @@
               <th>Title</th>
               <th>About</th>
               <th>Category</th>
-              <th>Client</th>
               <th>Picture</th>
               <th>Content</th>
               <th>Published</th>

@@ -81,7 +81,6 @@
               <h3>{{ $newss->title }}</h3>
               <ul>
                 <li><strong>Category : </strong>{{ $newss->category }}</li>
-                <li><strong>Client : </strong>{{ $newss->client }}</li>
                 <li><strong>tanggal : </strong>{{ $newss->created_at }}</li>
               </ul>
             </div>

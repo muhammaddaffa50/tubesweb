@@ -57,13 +57,6 @@
                         </div>
                         <div class="col-20">
                             <div class="form-group">
-                                <label for="client">client</label>
-                                <input type="text" name="client" class="form-control @error('client') is-invalid @enderror" placeholder="client">
-                                <small class="text-danger">@error('client') {{$message}} @enderror</small>
-                            </div>
-                        </div>
-                        <div class="col-20">
-                            <div class="form-group">
                                 <strong>Picture :</strong>
                                 <input type="file" name="picture" class="form-control" placeholder="picture">
                             </div>

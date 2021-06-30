@@ -286,9 +286,9 @@
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">500 - 1000</li>
-                            <li data-filter=".filter-card">1000 - 2000</li>
-                            <li data-filter=".filter-web">2000 - 2500</li>
+                            <li data-filter=".filter-app">Jalur Terpanjang</li>
+                            <li data-filter=".filter-card">Seven Summit Indonesia</li>
+                            <li data-filter=".filter-web">Jalur Terekstrim</li>
                         </ul>
                     </div>
                 </div>
@@ -420,8 +420,7 @@
                 </div>
 
                 <div class="row">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
                                 <img src="./index_files/img/team/team-1.jpg" class="img-fluid" alt="">
@@ -439,7 +438,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
                                 <img src="./index_files/img/team/team-2.jpeg" class="img-fluid" alt="">
@@ -456,7 +455,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
                                 <img src="./index_files/img/team/team-3.jpg" class="img-fluid" alt="">
@@ -470,9 +469,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
         <!-- End Team Section -->

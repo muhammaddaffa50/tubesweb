@@ -19,7 +19,6 @@ class CreateNews2Table extends Migration
             $table->string('picture', 255);
             $table->string('about', 255);
             $table->string('category', 255);
-            $table->string('client', 255);
             $table->text('content');
             $table->integer('authorid');
             $table->tinyInteger('is_published');
