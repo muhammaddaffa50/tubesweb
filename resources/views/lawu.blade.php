@@ -65,7 +65,7 @@
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
+              <div class="align-items-center">
 
                 <div class="swiper-slide">
                   <img src="{{ asset('img/uploads/') }}/{{ $newss->picture }}" alt="">
