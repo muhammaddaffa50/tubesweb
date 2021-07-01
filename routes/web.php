@@ -44,7 +44,7 @@ Route::get('arjuno1', [Daffa132Controller::class, 'arjuno']);
 Route::get('pundak1', [Daffa132Controller::class, 'pundak']);
 Route::get('sumeru1', [Daffa132Controller::class, 'sumeru']);
 Route::get('bromo1', [Daffa132Controller::class, 'bromo']);
-Route::get('kawi1', [Daffa132Controller::class, 'kawi']);
+Route::get('panderman1', [Daffa132Controller::class, 'panderman']);
 Route::get('liman1', [Daffa132Controller::class, 'liman']);
 Route::get('lawu1', [Daffa132Controller::class, 'lawu']);
 Route::get('profile', [Daffa132Controller::class, 'profile']);

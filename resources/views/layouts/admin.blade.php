@@ -142,7 +142,7 @@ with font-awesome or any other icon font library -->
                             <a href="/news6" class="nav-link">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>
-                                    kawi
+                                    panderman
                                 </p>
                             </a>
                         </li>

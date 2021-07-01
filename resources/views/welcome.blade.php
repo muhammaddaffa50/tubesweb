@@ -296,10 +296,10 @@
                 <div class="row portfolio-container">
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="./index_files/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                        <img src="./index_files/img/portfolio/portfolio-1.jpeg" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>gunung argapura</h4>
-                            <a href="./index_files/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                            <a href="./index_files/img/portfolio/portfolio-1.jpeg" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="gunung argapura"><i
                                     class="bx bx-plus"></i></a>
                             <a href="/argapura1" class="details-link" title="More Details"><i
@@ -332,10 +332,10 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="./index_files/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                        <img src="./index_files/img/portfolio/portfolio-4.jpeg" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>gunung buthak</h4>
-                            <a href="./index_files/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                            <a href="./index_files/img/portfolio/portfolio-4.jpeg" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox preview-link" title="gunung buthak"><i
                                     class="bx bx-plus"></i></a>
                             <a href="/buthak1" class="details-link" title="More Details"><i
@@ -346,10 +346,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <img src="./index_files/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>gunung kawi</h4>
+                            <h4>gunung panderman</h4>
                             <a href="./index_files/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="gunung kawi"><i class="bx bx-plus"></i></a>
-                            <a href="/kawi1" class="details-link" title="More Details"><i
+                                class="portfolio-lightbox preview-link" title="gunung panderman"><i class="bx bx-plus"></i></a>
+                            <a href="/panderman1" class="details-link" title="More Details"><i
                                     class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -390,9 +390,9 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <img src="./index_files/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>gunung semeru</h4>
+                            <h4>gunung sumeru</h4>
                             <a href="./index_files/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="gunung semeru"><i
+                                class="portfolio-lightbox preview-link" title="gunung sumeru"><i
                                     class="bx bx-plus"></i></a>
                             <a href="/sumeru1" class="details-link" title="More Details"><i
                                     class="bx bx-link"></i></a>

@@ -65,10 +65,10 @@ class Daffa132Controller extends Controller
         return view('bromo', compact("news5"));
     }
 
-    public function kawi()
+    public function panderman()
     {
         $news6 = news6::all();
-        return view('kawi', compact("news6"));
+        return view('panderman', compact("news6"));
     }
 
     public function liman()
