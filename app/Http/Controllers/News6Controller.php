@@ -54,7 +54,6 @@ class News6Controller extends Controller
             $input['picture'] = "$profileImage";
         }
 
-        $news6 = news6::find($id);
         news6::create($input);
 
         return redirect()->route('news6.index');
@@ -103,6 +102,7 @@ class News6Controller extends Controller
             unset($input['picture']);
         }
 
+        $news6 = news6::find($id);
         $news6->update($input);
 
         return redirect()->route('news6.index');
