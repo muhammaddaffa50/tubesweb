@@ -54,12 +54,8 @@ class News6Controller extends Controller
             $input['picture'] = "$profileImage";
         }
 
+        $news6 = news6::find($id);
         news6::create($input);
-
-        $id = $request->input('authorid');
-        $auth = \App\Models\Authors::findOrFail($id);
-        $news6 = \App\Models\news6::latest()->first();
-        $auth->news6()->attach($news6);
 
         return redirect()->route('news6.index');
     }
@@ -94,7 +90,7 @@ class News6Controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, news6 $news6)
+    public function update(Request $request, $id)
     {
         $input = $request->all();
 

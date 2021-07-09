@@ -56,11 +56,6 @@ class News7Controller extends Controller
 
         news7::create($input);
 
-        $id = $request->input('authorid');
-        $auth = \App\Models\Authors::findOrFail($id);
-        $news7 = \App\Models\news7::latest()->first();
-        $auth->news7()->attach($news7);
-
         return redirect()->route('news7.index');
     }
 
@@ -94,7 +89,7 @@ class News7Controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, news7 $news7)
+    public function update(Request $request, $id)
     {
         $input = $request->all();
 
@@ -107,6 +102,7 @@ class News7Controller extends Controller
             unset($input['picture']);
         }
 
+        $news7 = news7::find($id);
         $news7->update($input);
 
         return redirect()->route('news7.index');
