@@ -56,6 +56,11 @@ class News8Controller extends Controller
 
         news8::create($input);
 
+        $id = $request->input('authorid');
+        $auth = \App\Models\Authors::findOrFail($id);
+        $news8 = \App\Models\news8::latest()->first();
+        $auth->news8()->attach($news8);
+
         return redirect()->route('news8.index');
     }
 
@@ -89,7 +94,7 @@ class News8Controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, news8 $news8)
     {
         $input = $request->all();
 

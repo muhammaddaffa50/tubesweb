@@ -56,6 +56,11 @@ class News3Controller extends Controller
 
         news3::create($input);
 
+        $id = $request->input('authorid');
+        $auth = \App\Models\Authors::findOrFail($id);
+        $news3 = \App\Models\news3::latest()->first();
+        $auth->news3()->attach($news3);
+
         return redirect()->route('news3.index');
     }
 
@@ -89,7 +94,7 @@ class News3Controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, news3 $news3)
     {
         $input = $request->all();
 

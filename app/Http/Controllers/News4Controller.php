@@ -57,6 +57,11 @@ class News4Controller extends Controller
 
         news4::create($input);
 
+        $id = $request->input('authorid');
+        $auth = \App\Models\Authors::findOrFail($id);
+        $news4 = \App\Models\news4::latest()->first();
+        $auth->news4()->attach($news4);
+
         return redirect()->route('news4.index');
     }
 
@@ -90,7 +95,7 @@ class News4Controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, news4 $news4)
     {
         $input = $request->all();
 
